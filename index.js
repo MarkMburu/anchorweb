@@ -18,19 +18,19 @@ app.get('/about',function(req,res){
 app.get('/service',function(req,res){
     res.render("service")
 });
-app.get('/properties',function(req,res){
-    res.render("properties")
+app.get('/products',function(req,res){
+    res.render("products")
 });
 
 app.get("/selling",function(req,res){
-    res.render("products")
+    res.render("projects")
 })
 app.get('/contact',function(req,res){
     res.render("contact")
 });
 
-app.get('/blog',function(req,res){
-    res.redirect("/")
+app.get('/projects',function(req,res){
+    res.render("projects")
 });
 app.get('/blog-single',function(req,res){
     res.redirect("/")
