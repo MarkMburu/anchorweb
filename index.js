@@ -32,6 +32,9 @@ app.get('/contact',function(req,res){
 app.get('/projects',function(req,res){
     res.render("projects")
 });
+app.get("/mamlaka",function(req,res){
+    res.render("mamlaka")
+});
 app.get('/blog-single',function(req,res){
     res.redirect("/")
 });
